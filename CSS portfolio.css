@@ -9,7 +9,6 @@
     scroll-behavior: smooth;
   }
   
-  /* ------------------------------ Custom Scroll Bar ------------------------------ */
   
   ::-webkit-scrollbar {
     width: 6px;
@@ -41,7 +40,6 @@
   .loader img {
     width: 280px;
   }
-  /* ------------------------------ Linear-Gradient ------------------------------ */
   
   ::-webkit-scrollbar-thumb {
     border-radius: 12px;
@@ -52,11 +50,7 @@
     background: linear-gradient(135deg, #1a6ad2, #fff, rgb(245, 5, 53));
   }
   
-  /* --x--------------------------- Linear-Gradient ---------------------------x-- */
   
-  /* --x--------------------------- Custom Scroll Bar ---------------------------x-- */
-  
-  /* ------------------------------ Simillar ------------------------------ */
   
   section {
     padding: 100px 0;
@@ -117,9 +111,7 @@
     transform: translateX(-50%);
   }
   
-  /* --x--------------------------- Simillar ---------------------------x-- */
-  
-  /* ------------------------------ Navbar ------------------------------ */
+
   
   .navbar {
     position: fixed;
@@ -147,7 +139,6 @@
     font-weight: 600;
   }
   
-  /* ------------------------------ Nav Logo Span Linear-Gradient ------------------------------  */
   .navbar .logo a span {
     background: linear-gradient(135deg, #041d3d, #fff, crimson);
     -webkit-background-clip: text;
@@ -181,9 +172,7 @@
     color: #fff;
   }
   
-  /* --x--------------------------- Navbar ---------------------------x-- */
   
-  /* ------------------------------ Menu Btn ------------------------------ */
   
   .menu-btn {
     color: #fff;
@@ -222,9 +211,7 @@
     filter: brightness(90%);
   }
   
-  /* --x--------------------------- Menu Btn ---------------------------x-- */
   
-  /* ------------------------------ Home ------------------------------ */
   
   .home {
     display: flex;
@@ -289,11 +276,7 @@
     background: none;
     animation: pulsate 1s ease-in-out;
   }
-  
-  /* --x--------------------------- Home ---------------------------x-- */
-  
-  /* ------------------------------ About ------------------------------ */
-  
+
   .about {
     background: radial-gradient(#e1efff, white);
   }
@@ -326,9 +309,7 @@
     margin-bottom: 10px;
   }
   
-  /* Linear Gradiant */
   .about .about-content .right .text span {
-    /* color: #1e3551; */
     background: linear-gradient(135deg, #041d3d, #fff, crimson);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -357,9 +338,7 @@
     animation: pulsate 1s ease-in-out;
   }
   
-  /* --x--------------------------- About ---------------------------x-- */
-  
-  /* ------------------------------ Service ------------------------------ */
+ 
   
   .services,
   .projects {
@@ -418,10 +397,6 @@
     font-weight: 500;
     margin: 10px 0 7px 0;
   }
-  
-  /* --x--------------------------- Service ---------------------------x-- */
-  
-  /* ------------------------------ Skills ------------------------------ */
   
   .skills {
     background: radial-gradient(#e1efff, white);
@@ -530,10 +505,6 @@
     width: 70%;
   }
   
-  /* --x--------------------------- Skills ---------------------------x-- */
-  
-  /* ------------------------------ Projects ------------------------------ */
-  
   .projects .title::after {
     content: "What I did ?";
   }
@@ -606,10 +577,7 @@
   .owl-dot:hover {
     background: #18365a !important;
   }
-  
-  /* --x--------------------------- Projects ---------------------------x-- */
-  
-  /* ------------------------------ Contact ------------------------------ */
+
   
   .contact {
     background: radial-gradient(#e1efff, white);
@@ -730,10 +698,7 @@
     background: none;
     animation: pulsate 1s ease-in-out;
   }
-  
-  /* --x--------------------------- Contact ---------------------------x-- */
-  
-  /* ------------------------------ Social ------------------------------ */
+
   
   .col-4 {
     background: #d8d8d8;
@@ -814,17 +779,6 @@
     color: #fff;
   }
   
-  /* --x--------------------------- Social ---------------------------x-- */
-  
-  /* iframe{
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      z-index: 999;
-  } */
-  
-  /* ------------------------------ Footer ------------------------------ */
-  
   footer {
     background: #111;
     padding: 6px 16px;
@@ -841,9 +795,7 @@
     text-decoration: underline;
   }
   
-  /* --x--------------------------- Footer ---------------------------x-- */
-  
-  /* ------------------------------ Media Query ------------------------------ */
+
   @keyframes pulsate {
     0% {
       box-shadow: 0 0 25px #888e8d, 0 0 50px #1e3551;
@@ -980,6 +932,4 @@
       line-height: 38px;
     }
   }
-  
-  /* --x--------------------------- Media Query ---------------------------x-- */
   
