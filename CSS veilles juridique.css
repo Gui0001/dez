@@ -4,7 +4,6 @@ body {
     padding: 0;
   }
   
-  /* styles du header */
   
   header {
     background-color: #333;
@@ -18,7 +17,6 @@ body {
     text-align: center;
   }
   
-  /* styles du menu de navigation */
   
   nav {
     background-color: #eee;
@@ -49,7 +47,6 @@ body {
     text-decoration: underline;
   }
   
-  /* styles du contenu principal */
   
   main {
     padding: 20px;
@@ -80,7 +77,6 @@ body {
     margin-bottom: 10px;
   }
   
-  /* styles du pied de page */
   
   footer {
     background-color: #333;
