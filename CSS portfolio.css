@@ -215,7 +215,7 @@
   
   .home {
     display: flex;
-    background: url("https://source.unsplash.com/720x600/?dark,laptop") no-repeat
+    background: url("https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y29tcHV0ZXIlMjBzY2llbmNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80") no-repeat
       center;
     height: 100vh;
     color: #fff;
@@ -931,6 +931,9 @@
 
 
 
+  
+  
+ 
   
   
  
